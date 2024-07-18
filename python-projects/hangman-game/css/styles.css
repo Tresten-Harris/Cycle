@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Basic Reset */
+body, h1, h2, h3, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+#hangman-container {
+    margin: 20px auto;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+#letters-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#restart-button {
+    background-color: #28a745;
+    color: white;
+}
+
+#guess-button {
+    background-color: #007bff;
+    color: white;
+}
+
+h3 {
+    margin-top: 20px;
+}
